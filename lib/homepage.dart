@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
               ),
               if(imagefile !=null)
                Container(
-                height: 400,
+                height: 402,
                 width: 300,
                 color: Colors.grey[300],
                 child: Image.file(File(imagefile!.path)),
